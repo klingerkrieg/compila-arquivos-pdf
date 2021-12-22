@@ -9,3 +9,5 @@
 * Para compilar, execute no terminal:
 
   python compila.py
+
+* Ao final você ainda pode otimizar o seu arquivo pdf em: https://www.ilovepdf.com/pt/comprimir_pdf para ficar com um tamanho menor, sem perder a qualidade.
