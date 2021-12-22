@@ -3,11 +3,11 @@ import os
 pasta = '.'
 
 blank = PdfFileReader(os.path.join("./", "blank.pdf"))
+
 merger = PdfFileMerger()
 
 for diretorio, subpastas, arquivos in os.walk(pasta):
     
-
     #nao le arquivos no root
     if (diretorio == "."):
         continue
@@ -28,4 +28,4 @@ for diretorio, subpastas, arquivos in os.walk(pasta):
                 print("erro:",arquivo)
                 exit()
 
-merger.write(os.path.join("./", "diarios.pdf"))
+merger.write(os.path.join("./", "merged_full.pdf"))
